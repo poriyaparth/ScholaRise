@@ -2,7 +2,7 @@
 'use server';
 
 /**
- * @fileOverview A conversational AI chatbot for ScholaRise.
+ * @fileOverview A conversational AI chatbot for Ascend.
  *
  * - studentChatbot - A function that handles the chatbot conversation.
  * - StudentChatbotInput - The input type for the studentChatbot function.
@@ -35,7 +35,7 @@ const prompt = ai.definePrompt({
   name: 'studentChatbotPrompt',
   input: { schema: StudentChatbotInputSchema },
   output: { schema: StudentChatbotOutputSchema },
-  prompt: `You are a friendly and helpful AI assistant for the "ScholaRise" application. Your goal is to answer student questions about the platform.
+  prompt: `You are a friendly and helpful AI assistant for the "Ascend" application. Your goal is to answer student questions about the platform.
 
   Here is some information about the application:
   - Students can log their extracurricular activities (internships, workshops, etc.).

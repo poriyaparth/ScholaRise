@@ -34,7 +34,7 @@ export default function LandingPage() {
         <section id="features" className="w-full bg-muted py-12 md:py-24 lg:py-32">
           <div className="container mx-auto space-y-12 px-4 md:px-6">
             <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why ScholaRise?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Ascend?</h2>
               <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                 A comprehensive platform designed for student success and institutional excellence.
               </p>
@@ -76,7 +76,7 @@ export default function LandingPage() {
           <div className="mx-auto flex max-w-5xl flex-col items-center space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Empowering Students & Institutions</h2>
             <p className="max-w-3xl leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-              From individual growth to institutional reporting, ScholaRise is the all-in-one solution.
+              From individual growth to institutional reporting, Ascend is the all-in-one solution.
             </p>
           </div>
           <div className="mx-auto mt-12 max-w-5xl">
@@ -137,7 +137,7 @@ export default function LandingPage() {
           <div className="container mx-auto flex flex-col items-center gap-4 text-center px-4">
              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Ready to Elevate Your Portfolio?</h2>
              <p className="max-w-[700px] text-lg text-muted-foreground">
-              Join hundreds of students and institutions who are building their future with ScholaRise.
+              Join hundreds of students and institutions who are building their future with Ascend.
             </p>
              <Button asChild size="lg" className="mt-4">
               <Link href="/signup">Sign Up Now</Link>

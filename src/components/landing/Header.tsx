@@ -8,9 +8,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Logo className="h-8 w-8" />
-          <span className="font-bold sm:inline-block">ScholaRise</span>
+        <Link href="/" className="mr-6 flex items-center space-x-1">
+          <Logo className="h-10 w-10" />
+          <span className="font-bold sm:inline-block">Ascend</span>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-6">
           <nav className="hidden items-center gap-6 text-sm md:flex">

@@ -38,7 +38,7 @@ const prompt = ai.definePrompt({
   name: 'verifyCertificatePrompt',
   input: {schema: VerifyCertificateInputSchema},
   output: {schema: VerifyCertificateOutputSchema},
-  prompt: `You are an expert document verification agent for the ScholaRise platform. Your task is to analyze a certificate image and determine its authenticity.
+  prompt: `You are an expert document verification agent for the Ascend platform. Your task is to analyze a certificate image and determine its authenticity.
 
   You will be given the student's name, the activity title they submitted, and an image of the certificate.
 

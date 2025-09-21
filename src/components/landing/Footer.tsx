@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Logo className="h-6 w-6" />
           <p className="text-center text-sm leading-loose md:text-left">
-            © {new Date().getFullYear()} ScholaRise. All rights reserved.
+            © {new Date().getFullYear()} Ascend. All rights reserved.
           </p>
         </div>
       </div>

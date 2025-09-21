@@ -40,8 +40,8 @@ export default function LoginPage() {
       </div>
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center">
-          <Logo className="mx-auto h-12 w-12" />
-          <CardTitle className="mt-4 text-2xl font-bold">ScholaRise</CardTitle>
+          <Logo className="mx-auto h-16 w-16" />
+          <CardTitle className="mt-2 text-2xl font-bold">Ascend</CardTitle>
           <CardDescription>Login to your account</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">

@@ -178,7 +178,7 @@ export default function AnalyticsPage() {
             <CardDescription>Distribution of all verified activities by category.</CardDescription>
           </CardHeader>
           <CardContent>
-            <ChartContainer config={activityBreakdownConfig} className="mx-auto aspect-square max-h-[300px]">
+            <ChartContainer config={activityBreakdownConfig} className="mx-auto aspect-square max-h-[350px]">
               <PieChart>
                 <ChartTooltip content={<ChartTooltipContent nameKey="name" hideLabel />} />
                 <Pie data={activityBreakdown} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={100} labelLine={false} label={({ percent }) => `${(percent * 100).toFixed(0)}%`}>
@@ -186,7 +186,7 @@ export default function AnalyticsPage() {
                     <Cell key={`cell-${entry.name}`} fill={entry.fill} />
                   ))}
                 </Pie>
-                <Legend layout="horizontal" verticalAlign="bottom" align="center" iconSize={10} wrapperStyle={{fontSize: '12px', paddingBottom: '20px'}}/>
+                <Legend layout="horizontal" verticalAlign="bottom" align="center" iconSize={10} wrapperStyle={{fontSize: '12px', paddingTop: '10px'}}/>
               </PieChart>
             </ChartContainer>
           </CardContent>

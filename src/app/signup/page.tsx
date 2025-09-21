@@ -74,9 +74,9 @@ export default function SignupPage() {
       </div>
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <Logo className="mx-auto h-12 w-12" />
-          <CardTitle className="mt-4 text-2xl font-bold">Create an Account</CardTitle>
-          <CardDescription>Join ScholaRise</CardDescription>
+          <Logo className="mx-auto h-16 w-16" />
+          <CardTitle className="mt-2 text-2xl font-bold">Create an Account</CardTitle>
+          <CardDescription>Join Ascend</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="grid grid-cols-2 gap-4">

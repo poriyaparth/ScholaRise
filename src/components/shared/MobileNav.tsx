@@ -41,7 +41,7 @@ export function MobileNav() {
   return (
     <header className="flex h-14 items-center gap-4 border-b bg-card px-4 lg:h-[60px] lg:px-6 md:hidden">
       <Link href={homeLink} className="flex items-center gap-2 font-semibold">
-        <Logo className="h-6 w-6" />
+        <Logo className="h-8 w-8" />
         <span className="sr-only">Home</span>
       </Link>
       <div className="w-full flex-1">
@@ -57,8 +57,8 @@ export function MobileNav() {
         <SheetContent side="left" className="flex flex-col">
           <nav className="grid gap-2 text-lg font-medium">
             <Link href="#" className="flex items-center gap-2 text-lg font-semibold mb-4">
-              <Logo className="h-6 w-6" />
-              <span>{user?.role === 'student' ? 'ScholaRise' : 'Admin Panel'}</span>
+              <Logo className="h-8 w-8" />
+              <span>{user?.role === 'student' ? 'Ascend' : 'Admin Panel'}</span>
             </Link>
             {navItems.map((item) => (
               <Link

@@ -5,8 +5,24 @@ import { AuthProvider } from '@/context/AuthContext';
 import { ActivityProvider } from '@/context/ActivityContext';
 
 export const metadata: Metadata = {
-  title: 'ScholaRise',
+  title: 'Ascend',
   description: 'Your Entire College Journey, Verified and in One Place.',
+  icons: {
+    icon: '/Ascend.svg',
+    shortcut: '/Ascend.svg',
+    apple: '/Ascend.svg',
+  },
+  openGraph: {
+    title: 'Ascend',
+    description: 'Your Entire College Journey, Verified and in One Place.',
+    images: ['/Ascend.svg'],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Ascend',
+    description: 'Your Entire College Journey, Verified and in One Place.',
+    images: ['/Ascend.svg'],
+  },
 };
 
 export default function RootLayout({

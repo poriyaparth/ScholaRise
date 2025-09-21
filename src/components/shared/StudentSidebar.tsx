@@ -26,9 +26,9 @@ export function StudentSidebar() {
     <div className="hidden md:block fixed left-0 top-0 h-screen w-[220px] lg:w-[280px] border-r bg-card z-10">
       <div className="flex h-full flex-col overflow-y-auto gap-2">
         <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
-          <Link href="/student/dashboard" className="flex items-center gap-2 font-semibold">
-            <Logo className="h-6 w-6" />
-            <span className="">ScholaRise</span>
+          <Link href="/student/dashboard" className="flex items-center gap-1 font-semibold">
+            <Logo className="h-8 w-8" />
+            <span className="">Ascend</span>
           </Link>
         </div>
         <div className="flex-1">
